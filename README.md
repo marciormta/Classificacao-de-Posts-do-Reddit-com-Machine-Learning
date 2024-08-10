@@ -4,31 +4,24 @@ Este projeto classifica textos extraídos do Reddit em cinco categorias distinta
 
 ## Tabela de Conteúdos
 - [Instalação](#instalação)
-- 
+
 ## Instalação
 
 1. Clone o repositório:
-   ```bash
-git clone https://github.com/seu_usuario/nome_do_repositorio.git
-Navegue até o diretório do projeto:
+   git clone https://github.com/seu_usuario/nome_do_repositorio.git
 
-bash
-Copiar código
-cd nome_do_repositorio
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+2. Navegue até o diretório do projeto:
+   cd nome_do_repositorio
 
-bash
-Copiar código
-python -m venv venv
-source venv/bin/activate  # No Windows use `venv\Scripts\activate`
-Instale as dependências do projeto:
+3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+   python -m venv venv
+   source venv/bin/activate  # No Windows use `venv\Scripts\activate`
 
-bash
-Copiar código
-pip install -r requirements.txt
-Uso
-Para executar o script principal:
+4. Instale as dependências do projeto:
+   pip install -r requirements.txt
 
-bash
-Copiar código
-python Classificacao_Publicacoes.py
+5. Gere credenciais da API do reddit através desse link:
+     https://www.reddit.com/prefs/apps
+
+
+
