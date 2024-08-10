@@ -4,10 +4,7 @@ Este projeto classifica textos extraídos do Reddit em cinco categorias distinta
 
 ## Tabela de Conteúdos
 - [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
+- 
 ## Instalação
 
 1. Clone o repositório:
