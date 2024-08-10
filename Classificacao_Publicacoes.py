@@ -27,9 +27,9 @@ def carrega_dados():
     # Primeiro extraímos os dados do Reddit acessando via API
     api_reddit = praw.Reddit(client_id="NTJJVwNvI84C-NXIsMW9wA", 
                              client_secret="HA1DIa8Im9X-6uo2DKgWtOT4VXzjyw",
-                             password="RPPpVw%D3*Bsxh2",
+                             password="",
                              user_agent="marciormta-app",
-                             username="Pretend_Matter_2332")
+                             username="")
 
     # Contamos o número de caracteres usando expressões regulares
     char_count = lambda post: len(re.sub(r'\W|\d', '', post.selftext))
